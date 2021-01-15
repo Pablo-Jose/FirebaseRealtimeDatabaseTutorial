@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         input = (AutoCompleteTextView) findViewById(R.id.input);
         nome = (TextView) findViewById(R.id.nome);
-        text = (TextView) findViewById(R.id.text);
         botaoOk = (Button) findViewById(R.id.botao_ok);
 
         Onclik();
@@ -50,5 +49,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 }
