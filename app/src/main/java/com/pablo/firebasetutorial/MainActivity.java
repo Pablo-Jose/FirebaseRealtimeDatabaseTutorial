@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 if(input.getText().length() <=0){
                     input.setError("Digite um nome");
                 }else{
-                    String nomeUsuario = input.getText().toString().trim();
+                    String nomeUsuario = ", " + input.getText().toString().trim();
                     nome.setText(nomeUsuario);
                     nome.setVisibility(View.VISIBLE);
                     mDatabaseReference.push().child("Nome").setValue(nomeUsuario);
