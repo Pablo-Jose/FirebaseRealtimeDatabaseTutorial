@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseDatabase mFirebaseDatabase;
     private DatabaseReference mDatabaseReference;
-    private TextView text, nome, input;
+    private TextView nome, input;
     Button botaoOk;
 
     @Override
