@@ -1,24 +1,25 @@
 {
   "project_info": {
     "project_number": "749435445134",
+    "firebase_url": "https://tutorial-6c89a-default-rtdb.firebaseio.com",
     "project_id": "tutorial-6c89a",
     "storage_bucket": "tutorial-6c89a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:749435445134:android:ddca61ae481e1bc0020edf",
+        "mobilesdk_app_id": "1:749435445134:android:91a5ff16090073e0020edf",
         "android_client_info": {
           "package_name": "com.pablo.firebasetutorial"
         }
       },
       "oauth_client": [
         {
-          "client_id": "749435445134-moiimse5bpmbuouj7et65jelsqqppi4q.apps.googleusercontent.com",
+          "client_id": "749435445134-dmu1b7407juatac8ee5nfkktb8phhere.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.pablo.firebasetutorial",
-            "certificate_hash": "829aabf2276b1bd2d9e11705ad5a9f46601dedff"
+            "certificate_hash": "d039dc9fc7e6ff6bb4dd17d4b15169b724670752"
           }
         },
         {
