@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
                     input.setError("Digite um nome");
                 }else{
                     String nomeUsuario = input.getText().toString().trim();
-                    nome.setVisibility(View.VISIBLE);
                     databaseReference.push().child("Nome").setValue(nomeUsuario);
                     nome.setText(", " + nomeUsuario);
+                    nome.setVisibility(View.VISIBLE);
                 }
             }
         });
